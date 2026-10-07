@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- In-memory storage. Replace this project to move to a real database. -->
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FunBooks.Application\FunBooks.Application.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Use cases: the purchase order processor, business rules and services. -->
+  <ItemGroup>
+    <!-- Gives access to logging, DI and diagnostics abstractions without extra NuGet packages. -->
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FunBooks.Domain\FunBooks.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="FunBooks.UnitTests" />
+  </ItemGroup>
+</Project>
