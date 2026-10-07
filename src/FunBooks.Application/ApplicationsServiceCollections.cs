@@ -7,7 +7,7 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace FunBooks.Application;
 
-public static class DependencyInjection
+public static class ApplicationsServiceCollections
 {
     public static IServiceCollection AddApplication(this IServiceCollection services)
     {
